@@ -1,0 +1,1 @@
+Included libs were tested on Windows 7.

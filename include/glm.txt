@@ -1,0 +1,1 @@
+Put here GLEW, GLFW3 and GLM lib's include folders.

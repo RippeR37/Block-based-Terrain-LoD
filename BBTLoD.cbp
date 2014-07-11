@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="BBTLoD" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release Windows">
+				<Option output="bin/BBTLoD" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/" />
+				<Option object_output="bin/obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-static" />
+					<Add option="-static-libgcc" />
+					<Add option="-static-libstdc++" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="D:\Programy\CodeBlocks\MinGW\lib\libopengl32.a" />
+					<Add library="D:\Programy\CodeBlocks\MinGW\lib\libgdi32.a" />
+					<Add library="libs\libstdc++.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-DGLEW_STATIC" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add library="libs\libglew32.a" />
+			<Add library="libs\libglfw3.a" />
+			<Add library="libs\glfw3dll.a" />
+		</Linker>
+		<Unit filename="Common/Data.cpp" />
+		<Unit filename="Common/Data.h" />
+		<Unit filename="Common/File.cpp" />
+		<Unit filename="Common/File.h" />
+		<Unit filename="GUI/Window.cpp" />
+		<Unit filename="GUI/Window.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="Input/InputManager.cpp" />
+		<Unit filename="Input/InputManager.h" />
+		<Unit filename="Input/Keyboard.cpp" />
+		<Unit filename="Input/Keyboard.h" />
+		<Unit filename="Input/Mouse.cpp" />
+		<Unit filename="Input/Mouse.h" />
+		<Unit filename="Logic/ApplicationLogic.cpp" />
+		<Unit filename="Logic/ApplicationLogic.h" />
+		<Unit filename="Renderer/FreeCamera.cpp" />
+		<Unit filename="Renderer/FreeCamera.h" />
+		<Unit filename="Renderer/OpenGL/MatrixStack.cpp" />
+		<Unit filename="Renderer/OpenGL/MatrixStack.h" />
+		<Unit filename="Renderer/OpenGL/Pipeline.cpp" />
+		<Unit filename="Renderer/OpenGL/Pipeline.h" />
+		<Unit filename="Renderer/OpenGL/Shader.cpp" />
+		<Unit filename="Renderer/OpenGL/Shader.h" />
+		<Unit filename="Renderer/Renderer.cpp" />
+		<Unit filename="Renderer/Renderer.h" />
+		<Unit filename="Renderer/Terrain.cpp" />
+		<Unit filename="Renderer/Terrain.h" />
+		<Unit filename="Renderer/Types.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
