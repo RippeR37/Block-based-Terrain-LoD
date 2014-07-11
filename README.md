@@ -17,11 +17,12 @@ Demo
 Controls
 --------
 
-Mouse - look with FlyCamera / FreeCamera
-WSAD - move forward/backward/left/right
-space - move up
-lctrl - move down
-lshift - hold to move much faster 
+Mouse - look with FlyCamera / FreeCamera  
+WSAD - move forward/backward/left/right  
+space - move up  
+lctrl - move down  
+lshift - hold to move much faster  
+
 
 Preview
 -------
