@@ -1,5 +1,5 @@
-Block-based Terrain LoD implementation
-======================================
+Project
+=======
 
 Simple implementation of loading heightmaps and generating on-the-fly LoD database to efficiently render terrain with
 different level of detail depending on distance to camera.
