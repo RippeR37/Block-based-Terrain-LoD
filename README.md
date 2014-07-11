@@ -8,6 +8,26 @@ Simple doesnt mean its slow. Though building might be faster, to render terrain 
 ```glMultiDrawElements()``` with previously builded data in both VBO and IBO. It also allows for good customization
 with easy way to change number of levels, size of blocks and how levels for each block is determined.
 
+Heart of the project are files Terrain.h and Terrain.cpp that implements algorithm. Rest is example Application structure with window and context creation.
+
+
+Demo
+====
+
+Controls
+--------
+
+Mouse - look with FlyCamera / FreeCamera
+WSAD - move forward/backward/left/right
+space - move up
+lctrl - move down
+lshift - hold to move much faster 
+
+Preview
+-------
+
+![_Image_](http://i.imgur.com/3uQisMI.png "Demo preview")
+
 
 Compiling
 =========
