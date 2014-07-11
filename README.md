@@ -26,7 +26,7 @@ Dependencies
 2. GLFW3 (tested with version 3.0.4)
 3. GLM (tested with 0.9.5.4, headers only)
 
-Buided libs are included in demo example, however headers for them are not.
+Builded libs are included in demo example, however headers for them are not.
 
 
 License
