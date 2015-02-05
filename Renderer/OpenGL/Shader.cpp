@@ -4,6 +4,7 @@
 #include <sstream>
 #include <fstream>
 #include <iostream>
+#include <cstdlib>
 
 #include "../../Common/File.h"
 #include "Shader.h"

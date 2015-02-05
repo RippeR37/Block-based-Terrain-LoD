@@ -16,13 +16,11 @@
 					<Add option="-O2" />
 					<Add option="-static" />
 					<Add option="-static-libgcc" />
-					<Add option="-static-libstdc++" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
 					<Add library="D:\Programy\CodeBlocks\MinGW\lib\libopengl32.a" />
 					<Add library="D:\Programy\CodeBlocks\MinGW\lib\libgdi32.a" />
-					<Add library="libs\libstdc++.a" />
 				</Linker>
 			</Target>
 		</Build>

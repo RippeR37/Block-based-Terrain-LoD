@@ -1,0 +1,560 @@
+# depslib dependency file v1.0
+1422002386 source:c:\users\damian\desktop\block-based-terrain-lod-master\common\data.cpp
+	"Data.h"
+	<algorithm>
+	<locale>
+
+1422002386 c:\users\damian\desktop\block-based-terrain-lod-master\common\data.h
+	<string>
+
+1422002386 source:c:\users\damian\desktop\block-based-terrain-lod-master\common\file.cpp
+	<fstream>
+	<algorithm>
+	"File.h"
+
+1422002386 c:\users\damian\desktop\block-based-terrain-lod-master\common\file.h
+	<string>
+
+1422002386 source:c:\users\damian\desktop\block-based-terrain-lod-master\game.cpp
+	<iostream>
+	"Game.h"
+
+1422002386 c:\users\damian\desktop\block-based-terrain-lod-master\game.h
+	"GUI/Window.h"
+	"Logic/ApplicationLogic.h"
+	"Renderer/Renderer.h"
+	"Input/InputManager.h"
+
+1422002386 c:\users\damian\desktop\block-based-terrain-lod-master\gui\window.h
+	<string>
+	<iostream>
+	<gl/glew.h>
+	<GLFW/glfw3.h>
+
+1422364694 c:\users\damian\desktop\block-based-terrain-lod-master\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1421608658 c:\users\damian\desktop\block-based-terrain-lod-master\include\glfw\glfw3.h
+	<stddef.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES3/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES3/gl2ext.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1422002386 c:\users\damian\desktop\block-based-terrain-lod-master\logic\applicationlogic.h
+
+1422002386 c:\users\damian\desktop\block-based-terrain-lod-master\renderer\renderer.h
+	<gl/glew.h>
+	"Types.h"
+	"Terrain.h"
+	"FreeCamera.h"
+	"OpenGL/Pipeline.h"
+	"OpenGL/Shader.h"
+
+1422002386 c:\users\damian\desktop\block-based-terrain-lod-master\renderer\types.h
+
+1422002386 c:\users\damian\desktop\block-based-terrain-lod-master\renderer\terrain.h
+	<string>
+	<vector>
+	<gl/glew.h>
+
+1422002386 c:\users\damian\desktop\block-based-terrain-lod-master\renderer\freecamera.h
+	<glm/glm.hpp>
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_int.hpp
+	"setup.hpp"
+	<cstdint>
+
+1403361216 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\setup.hpp
+	<cassert>
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\precision.hpp
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1403361216 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\_swizzle.hpp
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\_swizzle_func.hpp
+
+1393357678 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_vec2.inl
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1403361216 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1393357678 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_vec3.inl
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1403361216 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_vec4.hpp
+	"setup.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1403361216 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_vec4.inl
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1403361216 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat2x2.inl"
+
+1403361216 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_mat2x2.inl
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1403361216 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat2x3.inl"
+
+1393355594 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_mat2x3.inl
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1403361216 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat2x4.inl"
+
+1393355594 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_mat2x4.inl
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1403361216 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat3x2.inl"
+
+1393355594 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_mat3x2.inl
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1403361216 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat3x3.inl"
+
+1403361216 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_mat3x3.inl
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1403361216 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat3x4.inl"
+
+1393355594 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_mat3x4.inl
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1403361216 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat4x2.inl"
+
+1393355594 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_mat4x2.inl
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1403361216 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat4x3.inl"
+
+1393355594 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_mat4x3.inl
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1403361216 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1393355594 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_mat4x4.inl
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\func_trigonometric.hpp
+	"func_trigonometric.inl"
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+
+1393355594 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1403361216 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1393357678 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_vec1.inl
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1393355594 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1396394864 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cassert>
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\func_vector_relational.inl
+	<limits>
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\common.hpp
+	"detail/func_common.hpp"
+
+1403361216 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1403287824 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1403287824 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1403287824 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\type_half.inl
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1403287824 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1403361216 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"func_integer.inl"
+
+1396394864 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+
+1422002386 c:\users\damian\desktop\block-based-terrain-lod-master\renderer\opengl\pipeline.h
+	<glm/glm.hpp>
+	"MatrixStack.h"
+
+1422002386 c:\users\damian\desktop\block-based-terrain-lod-master\renderer\opengl\matrixstack.h
+	<stack>
+	<glm/glm.hpp>
+
+1422002386 c:\users\damian\desktop\block-based-terrain-lod-master\renderer\opengl\shader.h
+	"../../Common/File.h"
+	<map>
+	<string>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1422002386 c:\users\damian\desktop\block-based-terrain-lod-master\input\inputmanager.h
+	"Keyboard.h"
+	"Mouse.h"
+
+1422002386 c:\users\damian\desktop\block-based-terrain-lod-master\input\keyboard.h
+	<gl/glew.h>
+	<GLFW/glfw3.h>
+
+1422002386 c:\users\damian\desktop\block-based-terrain-lod-master\input\mouse.h
+	<gl/glew.h>
+	<GLFW/glfw3.h>
+
+1423174041 source:c:\users\damian\desktop\block-based-terrain-lod-master\gui\window.cpp
+	"Window.h"
+	"../Game.h"
+	<cstdio>
+
+1422002386 source:c:\users\damian\desktop\block-based-terrain-lod-master\input\inputmanager.cpp
+	"InputManager.h"
+
+1422002386 source:c:\users\damian\desktop\block-based-terrain-lod-master\input\keyboard.cpp
+	"Keyboard.h"
+	"../Game.h"
+
+1422002386 source:c:\users\damian\desktop\block-based-terrain-lod-master\input\mouse.cpp
+	"Mouse.h"
+	"..\Game.h"
+
+1422002386 source:c:\users\damian\desktop\block-based-terrain-lod-master\logic\applicationlogic.cpp
+	"ApplicationLogic.h"
+	"../Game.h"
+
+1423174056 source:c:\users\damian\desktop\block-based-terrain-lod-master\main.cpp
+	<ctime>
+	<cstdlib>
+	"Game.h"
+
+1422002386 source:c:\users\damian\desktop\block-based-terrain-lod-master\renderer\freecamera.cpp
+	"FreeCamera.h"
+	"../Game.h"
+	<gl/glew.h>
+	<glfw/glfw3.h>
+	<cmath>
+	<glm/gtc/matrix_transform.hpp>
+
+1403356714 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1393355594 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1389483480 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\gtc\constants.inl
+	<limits>
+
+1403356714 c:\users\damian\desktop\block-based-terrain-lod-master\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1422002386 source:c:\users\damian\desktop\block-based-terrain-lod-master\renderer\opengl\matrixstack.cpp
+	"MatrixStack.h"
+	<glm/gtc/matrix_transform.hpp>
+
+1422002386 source:c:\users\damian\desktop\block-based-terrain-lod-master\renderer\opengl\pipeline.cpp
+	"Pipeline.h"
+	<glm/gtc/matrix_transform.hpp>
+
+1423174085 source:c:\users\damian\desktop\block-based-terrain-lod-master\renderer\opengl\shader.cpp
+	<map>
+	<vector>
+	<string>
+	<sstream>
+	<fstream>
+	<iostream>
+	<cstdlib>
+	"../../Common/File.h"
+	"Shader.h"
+
+1422002386 source:c:\users\damian\desktop\block-based-terrain-lod-master\renderer\renderer.cpp
+	"Renderer.h"
+	"../Game.h"
+	<iostream>
+
+1422002386 source:c:\users\damian\desktop\block-based-terrain-lod-master\renderer\terrain.cpp
+	"Terrain.h"
+	"Types.h"
+	"../Game.h"
+	<vector>
+	<fstream>
+	<iostream>
+

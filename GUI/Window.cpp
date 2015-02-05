@@ -1,6 +1,8 @@
 #include "Window.h"
 #include "../Game.h"
 
+#include <cstdio>
+
 namespace GUI {
 
     CWindow::CWindow() {

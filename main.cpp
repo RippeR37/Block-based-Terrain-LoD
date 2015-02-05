@@ -1,4 +1,5 @@
 #include <ctime>
+#include <cstdlib>
 #include "Game.h"
 
 int main() {
